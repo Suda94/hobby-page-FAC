@@ -1,9 +1,39 @@
-:root{
-  --
+:root {
+  margin: 0;
+  padding: 0;
+  --primary-color: #85144b;
+  --secondary-color: #969494;
+  --third-color: #000000;
+  --text-size: 4rem;
+  --text-size-1: 2rem;
 }
 
-*,html {
+* {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-style: Georgia, Times, "Times New Roman", serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  padding: auto;
+  background: var(--secondary-color);
 }
 
+header section {
+  margin-top: 5rem;
+}
+
+.front-title {
+  position: absolute;
+  left: 10%;
+  display: inline-block;
+  background: var(--primary-color);
+  font-size: var(--text-size);
+  text-align: center;
+}
+#date {
+  position: absolute;
+  display: inline-flex;
+}
