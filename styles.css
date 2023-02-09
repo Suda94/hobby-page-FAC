@@ -17,23 +17,22 @@ body {
   display: flex;
   flex-direction: column;
   border-style: groove;
-  padding: auto;
+  border: 4px;
+  padding: 1rem;
   background: var(--secondary-color);
 }
 
-header section {
-  margin-top: 5rem;
-}
-
 .front-title {
-  position: absolute;
-  left: 10%;
-  display: inline-block;
+  position: relative;
+  display: flex;
   background: var(--primary-color);
   font-size: var(--text-size);
   text-align: center;
+  padding: 3rem;
 }
-#date {
-  position: absolute;
-  display: inline-flex;
+
+.current {
+  position: relative;
+  display: grid;
+  color: aliceblue;
 }
