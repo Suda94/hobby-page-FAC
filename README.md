@@ -3,8 +3,8 @@ Learn to build a simple web page using HTML, CSS & JS.
 
 
 # Requirements: 
-- [ ] The page has a title which informs the user what the site is about<br>
-- [ ] The page has a logical layout and clear structure <br>
+- [x] The page has a title which informs the user what the site is about<br>
+- [x] The page has a logical layout and clear structure <br>
 - [ ] There are images on the page, with alt-text where appropriate<br>
 - [ ] The page is visually interesting, for example with borders or colours <br>
 - [ ] A list is visible somewhere on the page<br>
