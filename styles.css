@@ -22,17 +22,28 @@ body {
   background: var(--secondary-color);
 }
 
+/* heading */
 .front-title {
   position: relative;
   display: flex;
   background: var(--primary-color);
   font-size: var(--text-size);
+  padding-left: 30%;
+  margin: 3rem;
+}
+header {
   text-align: center;
-  padding: 3rem;
 }
 
+/* date css */
 .current {
   position: relative;
-  display: grid;
+  display: flex;
   color: aliceblue;
+  float: right;
+}
+
+.tutor video {
+  max-width: 100%;
+  min-height: 6rem;
 }
