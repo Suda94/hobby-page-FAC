@@ -22,6 +22,8 @@ body {
   background: var(--secondary-color);
 }
 
+/* Primary bar */
+
 /* heading */
 .front-title {
   position: relative;
