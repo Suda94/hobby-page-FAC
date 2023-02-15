@@ -39,21 +39,23 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #8d4747;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: #0f2188;
   color: white;
 }
 /* heading */
-.front-title {
+header {
   position: absolute;
-  margin: 0;
+  left: 30%;
+  background: var(--primary-color);
+}
+.front-title {
   background: var(--primary-color);
   font-size: var(--text-size);
-  padding-left: -30%;
   margin: 4rem 30rem;
 }
 
@@ -80,5 +82,28 @@ body {
   margin: auto;
 }
 
-@media screen {
+@media screen and (max-width: 990px) {
+  header {
+    position: absolute;
+    left: 10%;
+  }
+
+  .front-title {
+    background: var(--primary-color);
+    font-size: 3rem;
+    margin: 4rem 30rem;
+  }
+
+  .current {
+    position: relative;
+    right: -60%;
+    margin: 0;
+    color: aliceblue;
+    float: right;
+  }
+
+  .tutor video {
+    max-width: 100%;
+    min-height: 6rem;
+  }
 }
